@@ -1,5 +1,9 @@
 import React from 'react';
-
-const App = () => <div className="app"></div>;
-
-export default App;
+import './styles/styles.css';
+import Calculator from './layout/Calculator/Calculator';
+const app = () => (
+  <div className="app">
+    <Calculator />
+  </div>
+);
+export default app;
