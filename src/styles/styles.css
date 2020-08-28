@@ -1,10 +1,10 @@
-*,
+/* *,
 * :: after,
 * :: before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 
 html {
     font-size: 62.5%;
@@ -70,4 +70,11 @@ body {
     white-space: no-wrap;
     color: var(--color-light-white);
     background-color: var(--color-tomato);
+  }
+
+  .keypad__row {
+    height: 11vh; /* (80vh calculator - 25vh screen) / 5 keypadRow components = 11vh */
+    width: 100%;
+    display: flex; /* To control the dimension */
+    color: white;
   }
