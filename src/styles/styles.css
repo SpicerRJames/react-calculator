@@ -1,10 +1,10 @@
-/* *,
+*,
 * :: after,
 * :: before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} */
+}
 
 html {
     font-size: 62.5%;
@@ -60,4 +60,14 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+  }
+
+  .screen {
+    height: 25vh;
+    width: 100%;
+    padding: 0 2rem;
+    overflow: hidden;
+    white-space: no-wrap;
+    color: var(--color-light-white);
+    background-color: var(--color-tomato);
   }
